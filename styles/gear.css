@@ -1,0 +1,125 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* shared styles */
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* shared styles */
+.section-title{
+    font-size: 1.9rem;
+    font-size: 25px;
+}
+.primary-btn{
+    background-color: #E02C6D;
+    border: 10px solid #E02C6D;
+    color: white;
+    border-radius: 20px;
+}
+
+.primary-title{
+    font-size: 16px;
+}
+
+
+/* header start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+nav>ul {
+    display: flex;
+    margin-right: 30px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.section{
+    display: flex;
+    padding: 100px;
+}
+.header-pic{
+    background-image: url(../images/Circle\ design.svg);
+}
+/* header css end */
+
+/* main css start */
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    padding: 30px;
+}
+.main-section{
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: start;
+    /* border: 2px solid  white; */
+    /* box-shadow: 10px 10px lightblue; */
+    padding: 40px;
+    gap: 50px;
+}
+.box-img{
+    /* box-shadow: 10px 10px lightblue; */
+    border: 2px solid  rgb(255, 255, 255);
+    width: 83%;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px #d1cece;
+    
+    
+}
+.box-img img{
+    width: 300px;
+    height: 300px;
+   
+}
+
+
+.see-btn{
+    
+}
+.see-more-btn{
+    background-color: white;
+    border: 2px solid white;
+    display: flex;
+}
+
+.featured-product{
+    padding: 50px;
+    display: flex;
+}
+
+.feature-text{
+    padding-left: 100px;
+
+}
+.feature-text>h3{
+    font-size: 40px;
+}
+
+/* main css end */
+
+/* footer css start */
+.footer-text{
+    background-color: #0A0826;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.media-logo img{
+    padding: 10px;
+}
